@@ -8,7 +8,6 @@ O GPR (Gestão de Pedidos e Rotas) é um sistema completo criado para otimizar a
 * [Sobre o Projeto](#gpr---sistema-de-gestão-de-pedidos-e-rotas)
 * [Principais Funcionalidades](#-principais-funcionalidades)
 * [Objetivos Estratégicos](#-objetivos-estratégicos)
-* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Indicadores de Sucesso (KPIs)](#-indicadores-de-sucesso-kpis)
 
 ## ✨ Principais Funcionalidades
