@@ -65,7 +65,7 @@ section {
     align-items: center;
     text-align: center;
     color: var(--white);
-    background: linear-gradient(rgba(0, 119, 182, 0.4), rgba(0, 119, 182, 0.4)), url('imagem_fundo_cedisa.png') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 119, 182, 0.4), rgba(0, 119, 182, 0.4)), url('images/imagem_fundo_cedisa.png') center/cover no-repeat;
     max-width: 100%;
     margin: -80px auto 35px auto;
     border-radius: 0;
