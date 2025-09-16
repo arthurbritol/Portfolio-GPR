@@ -1,7 +1,5 @@
 # GPR - Sistema de Gestão de Pedidos e Rotas
 
-> Um sistema de front-end para otimizar e centralizar a gestão de pedidos e a operação logística.
-
 O GPR (Gestão de Pedidos e Rotas) é um sistema completo criado para otimizar a operação logística através de uma plataforma única e automatizada. O principal objetivo é substituir processos manuais e planilhas para centralizar o controle de vendas, o catálogo de produtos e o acompanhamento de entregas. Desenvolvido com HTML, CSS e JavaScript, o sistema digitaliza processos e oferece acompanhamento em tempo real para dar mais visibilidade e eficiência ao fluxo de trabalho.
 
 ## 📌 Tabela de Conteúdos
