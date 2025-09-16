@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Projeto - Sistema de Gestão de Pedidos e Rotas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a class="nav-logo" data-page="home"><img src="logo cedisa - ícone.png" alt="Logo Novo Horizonte"></a>
+            <a class="nav-logo" data-page="home" href="#"
+                style="color: white; text-decoration: none; font-weight: 700; font-size: 1.5rem;">GESTÃO DE PEDIDOS E ROTAS</a>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a class="nav-link" data-page="home" href="#">Início</a></li>
+                <li class="nav-item"><a class="nav-link" data-page="roadmap" href="#">Roadmap do Projeto</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicos">Funcionalidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home-page" class="page active">
+            <section class="hero" id="home">
+                <div class="hero-content">
+                    <h1>Sistema de Gestão de Pedidos e Rotas</h1>
+                    <p>Uma solução desenvolvida para otimizar o fluxo de vendas, produtos e logística de forma
+                        integrada.</p>
+                    <a href="https://github.com/arthurbritol/gestao-de-pedido" class="btn" target="_blank"
+                        rel="noopener">Ver Repositório no GitHub</a>
+                </div>
+            </section>
+
+            <section id="sobre">
+                <div class="container">
+                    <h2>Sobre o Projeto</h2>
+                    <div class="sobre-content">
+                        <div class="sobre-texto">
+                            <p>O GPR (Gestão de Pedidos e Rotas) é um sistema centralizado, criado para
+                                substituir processos manuais e papéis por uma plataforma única e automatizada. Seu
+                                objetivo principal é otimizar toda a operação logística, oferecendo maior visibilidade e
+                                eficiência desde a geração de um pedido até a sua entrega.
+                            </p>
+                            
+                            <p>
+                                Para isso, a plataforma oferece a <strong>digitalização</strong> de processos como os romaneios de
+                                separação e carregamento, a geração de dados em tempo real para monitoramento e a
+                                visualização completa do ciclo de vida de cada pedido. O sistema foi desenvolvido com
+                                foco nas necessidades de diferentes usuários: gestores ganham mais controle e dados para
+                                a tomada de decisão, a equipe operacional se beneficia de uma interface mais simples e
+                                processos ágeis, e os clientes finais recebem informações importantes, como a previsão
+                                de entrega.
+                            </p>
+                        </div>
+                        <div class="sobre-image">
+                            <img src="gpr_homologacao.png" alt="Logística e Gestão de Pedidos">
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="details-grid">
+                        <div class="details-column">
+                            <h4><i class="fas fa-bullseye"></i> Objetivos do Projeto</h4>
+                            <ul>
+                                <li>O GPR ser um sistema de gestão de pedidos aumente a eficiência e a visibilidade da
+                                    operação logística.</li>
+                                <li>O GPR gerar dados de performarnce em tempo real para monitoramento do desempenho das
+                                    operações logísticas.</li>
+                                <li>Reduzir a dependência de processos manuais e papéis, gerando escalabilidade de
+                                    processos, alinhando a logística a práticas digitais e sustentáveis.</li>
+                                <li>Integrar a gestão de rotas, pedidos, carregamentos e faturamento em uma plataforma
+                                    única e automatizada.</li>
+                                <li>Melhorar a experiência do cliente, oferecendo status do pedido em tempo real
+                                    diretamente via whatsapp ou email</li>
+                            </ul>
+                        </div>
+                        <div class="details-column">
+                            <h4><i class="fas fa-check-double"></i> Resultados Esperados</h4>
+                            <ul>
+                                <li>Status automatizado de pedidos com saldo total: eliminar processos manuais de
+                                    mudança de status de pedidos.</li>
+                                <li>GPR gerar dados de desempenho em tempo real para monitoramento do desempenho das
+                                    operações logísticas permitindo visualizar setores com maior demanda, performance
+                                    por setor.</li>
+                                <li>Digitalização de romaneios de separação e carregamento, eliminando 100% do uso do
+                                    papel na operação.</li>
+                                <li>GPR ser um sistema integrado ao Oracle e sistemas de roteirização, possibilitando a
+                                    gestão completa e automatizada de um pedido. Desde a montagem da carga, roteirização
+                                    do pedido e pré-faturamento.</li>
+                                <li>Permitir a visualização do ciclo de vida do pedido gerando informações de forma
+                                    automático aos clientes sobre andamento do pedido</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <h4><i class="fas fa-users"></i> Histórias de Usuário</h4>
+                    <div class="user-stories">
+                        <div class="story-card">
+                            <p><strong>Como gestor de frotas,</strong> eu gostaria que o GPR tivesse um controle mais
+                                rápido e com mais funcionalidades de gestão e formação de carga, criando filtros para as
+                                etapas.</p>
+                        </div>
+                        <div class="story-card">
+                            <p><strong>Como gestor de logística,</strong> eu gostaria que o sistema gerasse indicadores
+                                e monitoramento em tempo real, fornecendo informações claras para tomar decisões.</p>
+                        </div>
+                        <div class="story-card">
+                            <p><strong>Como cliente,</strong> eu gostaria de receber informações sobre o meu pedido,
+                                principalmente a previsão de entrega.</p>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <h4><i class="fas fa-tasks"></i> Entregas Realizadas (O que foi feito)</h4>
+                    <div class="details-grid">
+                        <div class="details-column">
+
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Mapeamento dos processos de formação de carga,
+                                    separação e materiais.</li>
+                                <li><i class="fas fa-check-circle"></i> Escopo do projeto de forma macro.</li>
+                                <li><i class="fas fa-check-circle"></i> Melhoria no tempo de carregamento das telas.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="details-column">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Status automático para pedidos com saldo total.
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Cores na linha de pedidos em formação de carga.
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Controle de transporte automatizado com
+                                    endereços.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="andamento">
+                <div class="container">
+                    <h2>Em Andamento</h2>
+                    <div class="timeline-andamento">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>GPR v2 - Q3</h3>
+                                <h4>Romaneio de separação digital (1 setor)</h4>
+                                <p>Implementação do primeiro setor com romaneio digitalizado, otimizando o
+                                    processo de
+                                    separação de produtos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicos">
+                <div class="container">
+                    <h2>Principais Funcionalidades</h2>
+                    <div class="servicos-grid">
+                        <div class="servico-card">
+                            <div class="icone-wrapper"><i class="fas fa-box-open"></i></div>
+                            <h3>Gestão de Pedidos</h3>
+                            <p>Uma interface intuitiva para criar, consultar e gerenciar todos os pedidos dos
+                                clientes,
+                                mantendo um registro organizado e de fácil acesso.</p>
+                        </div>
+                        <div class="servico-card">
+                            <div class="icone-wrapper"><i class="fas fa-barcode"></i></div>
+                            <h3>Controle de Produtos</h3>
+                            <p>Seção dedicada à visualização e busca de todos os produtos disponíveis no
+                                catálogo,
+                                facilitando a consulta de itens e a montagem de novos pedidos.</p>
+                        </div>
+                        <div class="servico-card">
+                            <div class="icone-wrapper"><i class="fas fa-truck"></i></div>
+                            <h3>Acompanhamento Logístico</h3>
+                            <p>Funcionalidade para monitorar o status do transporte e da entrega dos pedidos,
+                                oferecendo
+                                uma visão clara do processo logístico.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato">
+                <div class="container">
+                    <h2>Acesse o Protótipo no GitHub</h2>
+                    <div class="contato-content">
+                        <div class="contato-info">
+                            <h3>Repositório do Projeto</h3>
+                            <p>Todo o código-fonte está disponível para visualização do Protótipo.</p>
+                            <a href="https://github.com/arthurbritol/gestao-de-pedido" class="btn" target="_blank"
+                                rel="noopener"><i class="fab fa-github"></i> Ver no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="roadmap-page" class="page">
+            <section id="roadmap-content">
+                <div class="container">
+                    <h2>Roadmap do Projeto</h2>
+                    <div class="roadmap-grid">
+                        <div class="grid-header"></div>
+                        <div class="grid-header">Q1</div>
+                        <div class="grid-header">Q2</div>
+                        <div class="grid-header">Q3</div>
+                        <div class="grid-header">Q4</div>
+
+                        <div class="grid-row-title">GPR v1</div>
+                        <div class="grid-cell">
+                            <div class="task-card website">
+                                <div class="task-header" data-category="GPR v1">Mapeamento e escopo GPR<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Definição dos fluxos atuais e escopo detalhado do projeto.</p>
+                                </div>
+                            </div>
+                            <div class="task-card website">
+                                <div class="task-header" data-category="GPR v1">Tempo de carregamento<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Otimização de performance e carregamento rápido.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-cell">
+                            <div class="task-card website">
+                                <div class="task-header" data-category="GPR v1">Automatização de status<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Status automático para pedidos finalizados.</p>
+                                </div>
+                            </div>
+                            <div class="task-card website">
+                                <div class="task-header" data-category="GPR v1">Endereço de entrega<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Exibir endereço diretamente na busca.</p>
+                                </div>
+                            </div>
+                            <div class="task-card website">
+                                <div class="task-header" data-category="GPR v1">Cores na formação da carga<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Diferenciação visual para entregas parciais e totais.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+
+                        <div class="grid-row-title">GPR v2</div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell">
+                            <div class="task-card mobile">
+                                <div class="task-header" data-category="GPR v2">Integração equipe<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Integração de equipe para consolidar entregas.</p>
+                                </div>
+                            </div>
+                            <div class="task-card mobile">
+                                <div class="task-header" data-category="GPR v2">Controle de transporte<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Gestão de transporte com foco em motoristas.</p>
+                                </div>
+                            </div>
+                            <div class="task-card mobile">
+                                <div class="task-header" data-category="GPR v2">Romaneio digital (1 setor)<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Primeiro setor com romaneio digitalizado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-cell"></div>
+
+                        <div class="grid-row-title">GPR v3</div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell">
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">Romaneio digital (todos)<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Expansão total da digitalização.</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">Rota inteligente<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Rotas inteligentes para carregamento.</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">UX/UI - Melhorias<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Melhoria visual e usabilidade.</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">KPI Logística<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Indicadores de performance logística.</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">Carregamento digital<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Visualizar todos os romaneios de embarque do dia; Realizar inclusão de
+                                        observações de como deverá ser realizado o carregamento do embarque;
+                                        Destina
+                                        embarques para os usuários de carregamento; Informa se material foi
+                                        carregado ou não. Caso não, informa o motivo. Realiza impressão do
+                                        controle
+                                        de transporte. CONSULTAR PROTÓTIPO:
+                                        https://arthurbritol.github.io/gestao-de-pedido/# LOGINS: SENHA: 1234
+                                        gestor
+                                        (acesso gerencial) admin (separação) operador1 (separação) carregador1
+                                        (carregamento)</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">Faturamento GPR → Oracle<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Integração entre sistemas para faturamento.</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">Integração com Apps<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Rastreabilidade, canhoto digital e foto da entrega.</p>
+                                </div>
+                            </div>
+                            <div class="task-card marketing">
+                                <div class="task-header" data-category="GPR v3">Integração com WhatsApp<i
+                                        class="fas fa-chevron-down"></i></div>
+                                <div class="task-details">
+                                    <p>Mensagens automáticas para clientes sobre status.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025. Desenvolvido para apresentar o repositório do Sistema de Gestão de Pedidos e Rotas.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
