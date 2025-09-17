@@ -301,9 +301,17 @@ p {
 
 .servicos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
+
+#servicos .servicos-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#kpi .servicos-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 
 .servico-card {
     background-color: #f8f9fa;
@@ -536,6 +544,11 @@ p {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    #servicos .servicos-grid,
+    #kpi .servicos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -589,6 +602,11 @@ p {
     }
 
     .details-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #servicos .servicos-grid,
+    #kpi .servicos-grid {
         grid-template-columns: 1fr;
     }
 
