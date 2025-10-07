@@ -1016,3 +1016,24 @@ p {
         display: none;
     }
 }
+
+/* ============================================
+   ESTILOS DO LOGO NO CABEÇALHO
+   ============================================ */
+.nav-brand .logo {
+    height: 45px; 
+    width: auto;
+    transition: opacity 0.3s ease;
+}
+
+.logo-blue {
+    display: none;
+}
+
+.header.scrolled .logo-white {
+    display: none; 
+}
+
+.header.scrolled .logo-blue {
+    display: block; 
+}
