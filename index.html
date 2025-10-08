@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Apresentação do projeto de transformação digital para o time de TI">
-    <title>Portfólio - Gestão de Pedidos e Rotas</title>
+    <meta name="description" content="Sistema GPR - Gestão de Pedidos e Rotas para otimização logística">
+    <title>GPR - Sistema de Gestão de Pedidos e Rotas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,12 +27,13 @@
             </button>
             <ul class="nav-menu" id="nav-menu">
                 <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
-                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Visão Geral</a></li>
                 <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
-                <li class="nav-item"><a class="nav-link" href="#beneficios">Benefícios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
-                <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funções</a></li>
+                <li class="nav-item"><a class="nav-link" href="#beneficios">Resultados</a></li>
+                <li class="nav-item"><a class="nav-link" href="#roadmap">Histórias</a></li>
+                <li class="nav-item"><a class="nav-link" href="#equipe">Restrições/KPI's</a></li>
+                <li class="nav-item"><a class="nav-link" href="#implementacoes">O que foi feito</a></li>
             </ul>
         </nav>
     </header>
@@ -40,8 +41,8 @@
     <main>
         <section class="hero" id="home">
             <div class="hero-content container">
-                <h1 class="hero-title">Transformação Digital da Infraestrutura de TI</h1>
-                <p class="hero-subtitle">Modernizando processos, escalando operações e impulsionando a inovação tecnológica corporativa</p>
+                <h1 class="hero-title">GPR - Gestão de Pedidos e Rotas</h1>
+                <p class="hero-subtitle">Sistema integrado de gestão logística com monitoramento em tempo real para otimização de operações e entregas</p>
                 <div class="hero-buttons">
                     <a href="#sobre" class="btn btn-primary">Conhecer Projeto</a>
                     <a href="#roadmap" class="btn btn-secondary">Ver Roadmap</a>
@@ -56,12 +57,12 @@
 
         <section id="sobre" class="section">
             <div class="container">
-                <h2 class="section-title">Sobre o Projeto</h2>
+                <h2 class="section-title">Visão Geral</h2>
                 <div class="sobre-grid">
                     <div class="sobre-content">
-                        <p class="lead">Este projeto representa uma iniciativa estratégica de modernização da infraestrutura tecnológica, focada em otimizar processos operacionais e elevar a capacidade de entrega do time de TI.</p>
-                        <p>Desenvolvido com base em metodologias ágeis e melhores práticas de DevOps, o projeto visa implementar soluções escaláveis que atendam às demandas crescentes do negócio, garantindo alta disponibilidade, segurança e performance.</p>
-                        <p>Nossa abordagem integra automação de processos, observabilidade em tempo real e arquitetura cloud-native, criando um ambiente tecnológico robusto e preparado para o futuro.</p>
+                        <p class="lead">O GPR é um sistema de gestão de pedidos focado em aumentar a visibilidade da operação logística através de indicadores do projeto, funções atuais, histórico do usuário, tarefas a fazer e riscos.</p>
+                        <p>GPR ser um sistema integrado ao Oracle e sistemas de roteirização, possibilitando uma gestão completa e automatizada de um pedido. Desde a montagem da carga, carregamento até a pré-faturamento.</p>
+                        <p>GPR gerar dados de performance em tempo real para monitoramento do desempenho das operações logísticas permitindo visualizar setores com maior demanda, performance por setor.</p>
                     </div>
                     <div class="sobre-image">
                         <div class="image-placeholder">
@@ -74,51 +75,47 @@
 
         <section id="objetivos" class="section section-alt">
             <div class="container">
-                <h2 class="section-title">Objetivos Estratégicos</h2>
-                <p class="section-subtitle">Metas claras e mensuráveis para garantir o sucesso da transformação digital</p>
+                <h2 class="section-title">Objetivos GPR</h2>
+                <p class="section-subtitle">Metas estratégicas para otimização da gestão logística e operacional</p>
                 <div class="objetivos-grid">
                     <div class="objetivo-card">
                         <div class="objetivo-icon">
                             <i class="fas fa-chart-line"></i>
                         </div>
-                        <h3>Aumentar Eficiência Operacional</h3>
-                        <p>Reduzir tempo de deploy em 70% através de pipelines automatizados e práticas de CI/CD</p>
+                        <h3>Performance e Banco de Dados</h3>
+                        <p>GPR gerar dados de performance em tempo real para monitoramento do desempenho das operações logísticas permitindo visualizar setores com maior demanda e performance por setor</p>
                         <div class="objetivo-meta">
-                            <span class="meta-label">Meta:</span>
-                            <span class="meta-value">70% de redução</span>
+                            <span class="meta-label">Fredericos Dias</span>
                         </div>
                     </div>
                     <div class="objetivo-card">
                         <div class="objetivo-icon">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-route"></i>
                         </div>
-                        <h3>Fortalecer Segurança</h3>
-                        <p>Implementar security-first approach com scanning automatizado e políticas de zero-trust</p>
+                        <h3>Integração com Sistemas de Roteirização</h3>
+                        <p>GPR ser um sistema integrado ao Oracle e sistemas de roteirização, possibilitando uma gestão completa e automatizada de um pedido. Desde a montagem da carga, carregamento até a pré-faturamento</p>
                         <div class="objetivo-meta">
-                            <span class="meta-label">Meta:</span>
-                            <span class="meta-value">99.9% compliance</span>
+                            <span class="meta-label">Fredericos Dias</span>
                         </div>
                     </div>
                     <div class="objetivo-card">
                         <div class="objetivo-icon">
-                            <i class="fas fa-rocket"></i>
+                            <i class="fas fa-user-friends"></i>
                         </div>
-                        <h3>Acelerar Time-to-Market</h3>
-                        <p>Diminuir ciclo de desenvolvimento com infraestrutura como código e ambientes efêmeros</p>
+                        <h3>Redução de Dependência de Processos Manuais</h3>
+                        <p>Reduzir a dependência de processos manuais, gerando escalabilidade de processos, alinhando boas práticas digitais e sustentáveis</p>
                         <div class="objetivo-meta">
-                            <span class="meta-label">Meta:</span>
-                            <span class="meta-value">50% mais rápido</span>
+                            <span class="meta-label">Fredericos Dias</span>
                         </div>
                     </div>
                     <div class="objetivo-card">
                         <div class="objetivo-icon">
-                            <i class="fas fa-dollar-sign"></i>
+                            <i class="fas fa-mobile-alt"></i>
                         </div>
-                        <h3>Otimizar Custos</h3>
-                        <p>Reduzir gastos com infraestrutura através de auto-scaling e resource optimization</p>
+                        <h3>Melhor Experiência do Cliente</h3>
+                        <p>Melhorar a experiência do cliente, oferecendo status do pedido em tempo real diretamente via whatsapp ou email</p>
                         <div class="objetivo-meta">
-                            <span class="meta-label">Meta:</span>
-                            <span class="meta-value">30% de economia</span>
+                            <span class="meta-label">Fredericos Dias</span>
                         </div>
                     </div>
                 </div>
@@ -127,79 +124,79 @@
 
         <section id="funcionalidades" class="section">
             <div class="container">
-                <h2 class="section-title">Funcionalidades Principais</h2>
-                <p class="section-subtitle">Recursos técnicos que compõem a solução completa</p>
+                <h2 class="section-title">Funções Atuais do GPR</h2>
+                <p class="section-subtitle">Funcionalidades implementadas no sistema de gestão</p>
                 <div class="funcionalidades-grid">
                     <div class="funcionalidade-card">
                         <div class="func-icon">
-                            <i class="fas fa-cloud"></i>
+                            <i class="fas fa-tasks"></i>
                         </div>
-                        <h3>Cloud Infrastructure</h3>
-                        <p>Arquitetura multi-cloud com Kubernetes, serverless functions e managed services para máxima flexibilidade e resiliência</p>
+                        <h3>Gestão de Pedidos por Status</h3>
+                        <p>Sistema automatizado de gestão de pedidos com controle completo de status e acompanhamento em tempo real</p>
                         <ul class="func-list">
-                            <li><i class="fas fa-check"></i> Auto-scaling horizontal</li>
-                            <li><i class="fas fa-check"></i> Multi-region deployment</li>
-                            <li><i class="fas fa-check"></i> Disaster recovery</li>
+                            <li><i class="fas fa-check"></i> Controle por status do pedido</li>
+                            <li><i class="fas fa-check"></i> Acompanhamento em tempo real</li>
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="funcionalidade-card">
                         <div class="func-icon">
-                            <i class="fas fa-code-branch"></i>
+                            <i class="fas fa-boxes"></i>
                         </div>
-                        <h3>CI/CD Pipeline</h3>
-                        <p>Automação completa do ciclo de desenvolvimento com testes integrados, quality gates e deployment automatizado</p>
+                        <h3>Formação de Cargas</h3>
+                        <p>Gestão completa do processo de formação e montagem de cargas para otimização logística</p>
                         <ul class="func-list">
-                            <li><i class="fas fa-check"></i> Automated testing</li>
-                            <li><i class="fas fa-check"></i> Code quality analysis</li>
-                            <li><i class="fas fa-check"></i> Blue-green deployment</li>
+                            <li><i class="fas fa-check"></i> Montagem automatizada</li>
+                            <li><i class="fas fa-check"></i> Otimização de espaço</li>
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="funcionalidade-card">
                         <div class="func-icon">
-                            <i class="fas fa-chart-bar"></i>
+                            <i class="fas fa-check-double"></i>
                         </div>
-                        <h3>Observabilidade</h3>
-                        <p>Monitoramento em tempo real com métricas, logs centralizados e distributed tracing para total visibilidade</p>
+                        <h3>Validação de Saldo</h3>
+                        <p>Sistema de validação automática de saldo para garantir disponibilidade de produtos e recursos</p>
                         <ul class="func-list">
-                            <li><i class="fas fa-check"></i> Real-time metrics</li>
-                            <li><i class="fas fa-check"></i> Custom dashboards</li>
-                            <li><i class="fas fa-check"></i> Alert management</li>
+                            <li><i class="fas fa-check"></i> Verificação automática</li>
+                            <li><i class="fas fa-check"></i> Alertas de indisponibilidade</li>
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="funcionalidade-card">
                         <div class="func-icon">
-                            <i class="fas fa-lock"></i>
+                            <i class="fas fa-clock"></i>
                         </div>
-                        <h3>Security & Compliance</h3>
-                        <p>Framework de segurança abrangente com encryption at rest/in transit, IAM e vulnerability scanning</p>
+                        <h3>Status Automatizado de Pedidos</h3>
+                        <p>Atualização automática de status eliminando processos manuais de mudança de status de pedidos</p>
                         <ul class="func-list">
-                            <li><i class="fas fa-check"></i> Zero-trust architecture</li>
-                            <li><i class="fas fa-check"></i> Automated scanning</li>
-                            <li><i class="fas fa-check"></i> Compliance reporting</li>
+                            <li><i class="fas fa-check"></i> Atualização em tempo real</li>
+                            <li><i class="fas fa-check"></i> Eliminação de processos manuais</li>
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="funcionalidade-card">
                         <div class="func-icon">
-                            <i class="fas fa-cogs"></i>
+                            <i class="fas fa-file-invoice"></i>
                         </div>
-                        <h3>Infrastructure as Code</h3>
-                        <p>Provisionamento declarativo de recursos usando Terraform, garantindo consistência e versionamento</p>
+                        <h3>Digitalização de Romaneios</h3>
+                        <p>Eliminação total do uso de papel na operação através da digitalização completa de romaneios de separação e carregamento</p>
                         <ul class="func-list">
-                            <li><i class="fas fa-check"></i> Version controlled</li>
-                            <li><i class="fas fa-check"></i> Automated provisioning</li>
-                            <li><i class="fas fa-check"></i> Environment parity</li>
+                            <li><i class="fas fa-check"></i> 100% digital</li>
+                            <li><i class="fas fa-check"></i> Sem uso de papel</li>
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="funcionalidade-card">
                         <div class="func-icon">
-                            <i class="fas fa-database"></i>
+                            <i class="fas fa-history"></i>
                         </div>
-                        <h3>Data Management</h3>
-                        <p>Estratégia unificada de dados com backup automatizado, replicação e disaster recovery procedures</p>
+                        <h3>Ciclo de Vida do Pedido</h3>
+                        <p>Visualização completa do ciclo de vida do pedido com informações automáticas aos clientes sobre andamento</p>
                         <ul class="func-list">
-                            <li><i class="fas fa-check"></i> Automated backups</li>
-                            <li><i class="fas fa-check"></i> Point-in-time recovery</li>
-                            <li><i class="fas fa-check"></i> Data encryption</li>
+                            <li><i class="fas fa-check"></i> Acompanhamento completo</li>
+                            <li><i class="fas fa-check"></i> Notificações automáticas</li>
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                 </div>
@@ -208,37 +205,34 @@
 
         <section id="beneficios" class="section section-alt">
             <div class="container">
-                <h2 class="section-title">Benefícios para a Organização</h2>
-                <p class="section-subtitle">Impacto direto nos resultados e na capacidade de inovação</p>
+                <h2 class="section-title">Resultados Esperados</h2>
+                <p class="section-subtitle">Impactos e resultados esperados com a implementação do GPR</p>
                 <div class="beneficios-grid">
                     <div class="beneficio-item">
                         <div class="beneficio-number">01</div>
-                        <h3>Para o Time de TI</h3>
+                        <h3>Status Automatizado com Saldo Total</h3>
                         <ul class="beneficio-list">
-                            <li><i class="fas fa-arrow-right"></i> Redução de trabalho manual repetitivo</li>
-                            <li><i class="fas fa-arrow-right"></i> Foco em tarefas estratégicas de alto valor</li>
-                            <li><i class="fas fa-arrow-right"></i> Ferramentas modernas e atualizadas</li>
-                            <li><i class="fas fa-arrow-right"></i> Ambiente de trabalho mais colaborativo</li>
+                            <li><i class="fas fa-arrow-right"></i> Eliminar processos manuais de mudança de status de pedidos</li>
+                            <li><i class="fas fa-arrow-right"></i> Controle completo e em tempo real</li>
+                            <li><i class="fas fa-arrow-right"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="beneficio-item">
                         <div class="beneficio-number">02</div>
-                        <h3>Para a Empresa</h3>
+                        <h3>Digitalização de Romaneios</h3>
                         <ul class="beneficio-list">
-                            <li><i class="fas fa-arrow-right"></i> Maior velocidade de resposta ao mercado</li>
-                            <li><i class="fas fa-arrow-right"></i> Redução significativa de custos operacionais</li>
-                            <li><i class="fas fa-arrow-right"></i> Melhor utilização de recursos tecnológicos</li>
-                            <li><i class="fas fa-arrow-right"></i> Compliance e governança aprimorados</li>
+                            <li><i class="fas fa-arrow-right"></i> Eliminar 100% do uso de papel na operação</li>
+                            <li><i class="fas fa-arrow-right"></i> Separação e carregamento totalmente digital</li>
+                            <li><i class="fas fa-arrow-right"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                     <div class="beneficio-item">
                         <div class="beneficio-number">03</div>
-                        <h3>Para os Clientes</h3>
+                        <h3>Ciclo de Vida do Pedido</h3>
                         <ul class="beneficio-list">
-                            <li><i class="fas fa-arrow-right"></i> Maior disponibilidade dos serviços</li>
-                            <li><i class="fas fa-arrow-right"></i> Performance e velocidade superiores</li>
-                            <li><i class="fas fa-arrow-right"></i> Novas funcionalidades mais rapidamente</li>
-                            <li><i class="fas fa-arrow-right"></i> Experiência digital aprimorada</li>
+                            <li><i class="fas fa-arrow-right"></i> Gerar informações de forma automática aos clientes</li>
+                            <li><i class="fas fa-arrow-right"></i> Acompanhamento sobre andamento do pedido</li>
+                            <li><i class="fas fa-arrow-right"></i> Fredericos Dias</li>
                         </ul>
                     </div>
                 </div>
@@ -247,21 +241,20 @@
 
         <section id="roadmap" class="section">
             <div class="container">
-                <h2 class="section-title">Roadmap de Implementação</h2>
-                <p class="section-subtitle">Cronograma estratégico dividido em fases mensuráveis</p>
+                <h2 class="section-title">Histórias do Usuário e Funcionalidades Implementadas</h2>
+                <p class="section-subtitle">Principais entregas e melhorias do sistema GPR</p>
                 <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="timeline-header">
-                                <h3>Fase 1: Discovery & Planning</h3>
-                                <span class="timeline-date">Q1 2025</span>
+                                <h3>Performance e Banco de Dados</h3>
+                                <span class="timeline-date">Fredericos Dias</span>
                             </div>
-                            <p>Mapeamento completo da infraestrutura atual, identificação de gaps e definição da arquitetura target</p>
+                            <p>Eu, como gestor de rotas, gostaria que o GPR tivesse um tempo de processamento de comando mais rápido, para que eu pudesse ganhar agilidade nos processos de formação de carga e impressão de romaneios de separação e carregamento</p>
                             <div class="timeline-tasks">
-                                <span class="task-badge">Inventário de sistemas</span>
-                                <span class="task-badge">Análise de requisitos</span>
-                                <span class="task-badge">Proof of concept</span>
+                                <span class="task-badge">Otimização de performance</span>
+                                <span class="task-badge">Redução de tempo</span>
                             </div>
                         </div>
                     </div>
@@ -269,14 +262,13 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="timeline-header">
-                                <h3>Fase 2: Foundation Setup</h3>
-                                <span class="timeline-date">Q2 2025</span>
+                                <h3>Gestão e Organização de Pedidos</h3>
+                                <span class="timeline-date">Fredericos Dias</span>
                             </div>
-                            <p>Implementação da base de infraestrutura cloud, configuração de redes e setup inicial de ferramentas</p>
+                            <p>Eu, como gestor de rotas, gostaria de ter mais funcionalidade de gestão e organização de pedidos no GPR, como filtros para etapas da formação de carga, para conseguir ter um controle melhor sobre a formação de carga e roteirização de pedidos</p>
                             <div class="timeline-tasks">
-                                <span class="task-badge">Cloud provisioning</span>
-                                <span class="task-badge">Network setup</span>
-                                <span class="task-badge">CI/CD básico</span>
+                                <span class="task-badge">Filtros avançados</span>
+                                <span class="task-badge">Controle de etapas</span>
                             </div>
                         </div>
                     </div>
@@ -284,14 +276,13 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="timeline-header">
-                                <h3>Fase 3: Core Implementation</h3>
-                                <span class="timeline-date">Q3 2025</span>
+                                <h3>GPR como Diferencial ao Cliente</h3>
+                                <span class="timeline-date">Fredericos Dias</span>
                             </div>
-                            <p>Migração de aplicações críticas, implementação de observabilidade e configuração de security policies</p>
+                            <p>Eu como cliente, gostaria de receber informações sobre o meu pedido, principalmente previsão de entrega</p>
                             <div class="timeline-tasks">
-                                <span class="task-badge">App migration</span>
-                                <span class="task-badge">Monitoring setup</span>
-                                <span class="task-badge">Security hardening</span>
+                                <span class="task-badge">Notificações automáticas</span>
+                                <span class="task-badge">Previsão de entrega</span>
                             </div>
                         </div>
                     </div>
@@ -299,14 +290,13 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="timeline-header">
-                                <h3>Fase 4: Optimization & Scale</h3>
-                                <span class="timeline-date">Q4 2025</span>
+                                <h3>Automatização e Inteligência Operacional</h3>
+                                <span class="timeline-date">Fredericos Dias</span>
                             </div>
-                            <p>Otimização de performance, implementação de auto-scaling e expansão para ambientes adicionais</p>
+                            <p>Eu como gestor de rotas, gostaria de conseguir executar mais tarefas de forma automatizada para tornar o processo de formação de carga, faturamento e roteirização mais ágil e eficaz</p>
                             <div class="timeline-tasks">
-                                <span class="task-badge">Performance tuning</span>
-                                <span class="task-badge">Cost optimization</span>
-                                <span class="task-badge">Documentation</span>
+                                <span class="task-badge">Processos automatizados</span>
+                                <span class="task-badge">Ganho de eficiência</span>
                             </div>
                         </div>
                     </div>
@@ -316,69 +306,127 @@
 
         <section id="equipe" class="section section-alt">
             <div class="container">
-                <h2 class="section-title">Equipe do Projeto</h2>
-                <p class="section-subtitle">Profissionais especializados liderando a transformação</p>
+                <h2 class="section-title">Restrições e KPI's do Projeto</h2>
+                <p class="section-subtitle">Limitações e indicadores-chave de performance do sistema</p>
                 <div class="equipe-grid">
                     <div class="equipe-card">
                         <div class="equipe-avatar">
-                            <i class="fas fa-user-tie"></i>
+                            <i class="fas fa-exclamation-triangle"></i>
                         </div>
-                        <h3>Tech Lead</h3>
-                        <p class="equipe-role">Arquitetura & Estratégia</p>
-                        <p class="equipe-desc">Responsável pela definição da arquitetura técnica e alinhamento estratégico do projeto</p>
-                        <div class="equipe-contact">
-                            <a href="mailto:techlead@company.com" class="contact-link">
-                                <i class="fas fa-envelope"></i> Contato
-                            </a>
-                        </div>
+                        <h3>Linguagem de Programação</h3>
+                        <p class="equipe-role">Restrição Técnica</p>
+                        <p class="equipe-desc">Linguagem de programação do GPR: APEX é pouco utilizada no mercado, o que pode dificultar a realização de obra qualificada para implementar as melhorias necessárias</p>
                     </div>
                     <div class="equipe-card">
                         <div class="equipe-avatar">
-                            <i class="fas fa-code"></i>
+                            <i class="fas fa-network-wired"></i>
                         </div>
-                        <h3>DevOps Engineer</h3>
-                        <p class="equipe-role">Infraestrutura & Automação</p>
-                        <p class="equipe-desc">Implementação de pipelines CI/CD, IaC e práticas de observabilidade</p>
-                        <div class="equipe-contact">
-                            <a href="mailto:devops@company.com" class="contact-link">
-                                <i class="fas fa-envelope"></i> Contato
-                            </a>
-                        </div>
+                        <h3>Integração Oracle e Teams</h3>
+                        <p class="equipe-role">Restrição de Integração</p>
+                        <p class="equipe-desc">Dificuldades de integração com o Oracle podem dificultar a entrega a extensão de NF-e</p>
                     </div>
                     <div class="equipe-card">
                         <div class="equipe-avatar">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-clock"></i>
                         </div>
-                        <h3>Security Engineer</h3>
-                        <p class="equipe-role">Segurança & Compliance</p>
-                        <p class="equipe-desc">Garantia de segurança da informação, compliance e gestão de vulnerabilidades</p>
-                        <div class="equipe-contact">
-                            <a href="mailto:security@company.com" class="contact-link">
-                                <i class="fas fa-envelope"></i> Contato
-                            </a>
-                        </div>
+                        <h3>Indisponibilidade do Time TI</h3>
+                        <p class="equipe-role">Restrição de Recursos</p>
+                        <p class="equipe-desc">Indisponibilidade do time TI com outras demandas que são prioridade</p>
                     </div>
                     <div class="equipe-card">
                         <div class="equipe-avatar">
-                            <i class="fas fa-project-diagram"></i>
+                            <i class="fas fa-chart-line"></i>
                         </div>
-                        <h3>Project Manager</h3>
-                        <p class="equipe-role">Gestão & Coordenação</p>
-                        <p class="equipe-desc">Coordenação de atividades, gestão de riscos e comunicação com stakeholders</p>
-                        <div class="equipe-contact">
-                            <a href="mailto:pm@company.com" class="contact-link">
-                                <i class="fas fa-envelope"></i> Contato
-                            </a>
-                        </div>
+                        <h3>Performance Operacional</h3>
+                        <p class="equipe-role">KPI de Carregamento</p>
+                        <p class="equipe-desc">Gerar indicador de carregamento planejado por setor, rota e produto. Gerar rotas de carregamento por setor. Meta: inferior a 11 dias</p>
                     </div>
                 </div>
 
                 <div class="cta-box">
-                    <h3>Tem dúvidas ou sugestões?</h3>
-                    <p>Entre em contato com a equipe do projeto para mais informações</p>
-                    <a href="mailto:projeto-ti@company.com" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i> Entrar em Contato
-                    </a>
+                    <h3>KPI's Adicionais - Indicadores do Projeto</h3>
+                    <p><strong>Ciclo de vida do pedido:</strong> Ter um acompanhamento em tempo real de todos os vértices do ciclo do pedido desde a emissão até a entrega. Meta: inferior a 11 dias</p>
+                    <p><strong>Prazo de entrega:</strong> Melhorar o índice de entregas dentro do prazo. Meta: >60% de pedidos entregues dentro do prazo</p>
+                    <p><strong>Monitoramento operacional:</strong> Monitorar quais setores são os mais demandados no dia, permitindo alocar recursos de forma eficiente</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="implementacoes" class="section">
+            <div class="container">
+                <h2 class="section-title">O que foi feito:</h2>
+                <p class="section-subtitle">Implementações e melhorias já realizadas no sistema GPR</p>
+                <div class="funcionalidades-grid">
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Mapeamento dos Processos</h3>
+                        <p>Mapeamento completo dos processos de formação de carga, separação de materiais e formação de carga</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <h3>Escopo do Projeto de Forma Macro</h3>
+                        <p>Definição completa do escopo macro do projeto com visão estratégica</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-list-check"></i>
+                        </div>
+                        <h3>Melhoria no Tempo de Carregamento das Telas</h3>
+                        <p>Otimização significativa no tempo de resposta e carregamento das interfaces do sistema</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3>Status Automático para Pedidos com Saldo Total</h3>
+                        <p>Implementação de atualização automática de status para pedidos com saldo completo</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-list-ol"></i>
+                        </div>
+                        <h3>Cores na Linha de Pedidos</h3>
+                        <p>Sistema de identificação visual com cores para facilitar o acompanhamento e gestão dos pedidos</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <h3>Visão Facilitada do Campo de Endereço do Pedido</h3>
+                        <p>Melhoria na visualização e acesso aos dados de endereço dos pedidos. Antes precisava ir até a impressão do romaneio, agora é possível acessar essa informação com um étique no "lupa" do pedido</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
+                    <div class="funcionalidade-card">
+                        <div class="func-icon">
+                            <i class="fas fa-truck-loading"></i>
+                        </div>
+                        <h3>Controle de Transporte Automatizado</h3>
+                        <p>Controle de transporte automatizado com endereços e ordem de entrega para facilitar as entregas dos motoristas</p>
+                        <ul class="func-list">
+                            <li><i class="fas fa-check"></i> Fredericos Dias</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -388,25 +436,26 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Projeto de Transformação Digital</h4>
-                    <p>Modernizando a infraestrutura tecnológica corporativa com foco em eficiência, segurança e inovação</p>
+                    <h4>Sistema GPR</h4>
+                    <p>Gestão de Pedidos e Rotas - Sistema integrado de gestão logística com monitoramento em tempo real</p>
                 </div>
                 <div class="footer-section">
                     <h4>Links Rápidos</h4>
                     <ul class="footer-links">
-                        <li><a href="#sobre">Sobre o Projeto</a></li>
-                        <li><a href="#objetivos">Objetivos</a></li>
-                        <li><a href="#roadmap">Roadmap</a></li>
-                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#sobre">Visão Geral</a></li>
+                        <li><a href="#objetivos">Objetivos GPR</a></li>
+                        <li><a href="#roadmap">Histórias do Usuário</a></li>
+                        <li><a href="#equipe">Restrições e KPI's</a></li>
+                        <li><a href="#implementacoes">O que foi feito</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Recursos</h4>
                     <ul class="footer-links">
-                        <li><a href="#funcionalidades">Documentação Técnica</a></li>
-                        <li><a href="#beneficios">Análise de Benefícios</a></li>
-                        <li><a href="mailto:arthur.lucio@cedisa.com.br">Suporte ao Projeto</a></li>
-                        <li><a href="#roadmap">Status de Implementação</a></li>
+                        <li><a href="#funcionalidades">Funções Atuais</a></li>
+                        <li><a href="#beneficios">Resultados Esperados</a></li>
+                        <li><a href="mailto:arthur.lucio@cedisa.com.br">Suporte ao Sistema</a></li>
+                        <li><a href="#roadmap">Melhorias Implementadas</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -417,7 +466,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Arthur Brito: Setor de Projetos de Logística. | Desenvolvido para apresentação interna</p>
+                <p>&copy; 2025 Cedisa - Setor de Projetos de Logística | Sistema GPR - Gestão de Pedidos e Rotas</p>
             </div>
         </div>
     </footer>
