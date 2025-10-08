@@ -1020,10 +1020,38 @@ p {
 /* ============================================
    ESTILOS DO LOGO NO CABEÇALHO
    ============================================ */
-.nav-brand .logo {
+
+.header {
+    height: 80px; 
+    display: flex;
+    align-items: center; 
+    padding: 0;
+}
+
+.header.scrolled {
+    height: 70px; 
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.nav-brand a {
+    display: inline-block; 
+    height: 50px;
+    transition: height 0.3s ease;
+}
+
+.header.scrolled .nav-brand a {
     height: 45px; 
+}
+
+.nav-brand .logo {
+    height: 100%; 
     width: auto;
-    transition: opacity 0.3s ease;
 }
 
 .logo-blue {
@@ -1031,9 +1059,14 @@ p {
 }
 
 .header.scrolled .logo-white {
-    display: none; 
+    display: none;
 }
 
 .header.scrolled .logo-blue {
-    display: block; 
+    display: block;
+}
+
+.header .container {
+    padding-left: 50px;
+    padding-right: 50px;
 }
