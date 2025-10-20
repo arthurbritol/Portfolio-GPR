@@ -1224,3 +1224,16 @@ p {
         font-size: 1.25rem;
     }
 }
+
+.contato-branco,
+.contato-branco i {
+  color: white !important; /* Força o ícone e o texto do li para branco */
+}
+
+.contato-branco a,
+.contato-branco a:link,
+.contato-branco a:visited,
+.contato-branco a:hover {
+  color: white !important; /* Força o LINK para branco em TODOS os estados */
+  text-decoration: none;  /* Opcional: remove o sublinhado */
+}
